@@ -4,7 +4,7 @@
 list-page-size: 8
 
 messages:
-  prefix: "&d[Potions] &r"
+  prefix: ""
   help:
     - "&7Brewing guide — search by name or ingredient."
     - "&f/potions list [page] &7— all potions"

@@ -16,7 +16,7 @@ public record PotionsMessages(
 
     public static PotionsMessages from(FileConfiguration config) {
         return new PotionsMessages(
-                config.getString("messages.prefix", "&d[Potions] &r"),
+                config.getString("messages.prefix", ""),
                 config.getStringList("messages.help"),
                 config.getString("messages.not-found", "&cNo potion matched &f{query}&c."),
                 config.getString("messages.list-header", "&7Potion recipes"),
